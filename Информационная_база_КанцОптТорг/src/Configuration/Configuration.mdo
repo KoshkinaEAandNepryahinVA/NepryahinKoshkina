@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93b26d0a-5611-4d22-be6a-e00a91c6cb43">
+  <name>КанцОптТорг</name>
+  <synonym>
+    <key>ru</key>
+    <value>ООО &quot;КанцОптТорг&quot;</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f25bd7c1-b924-40bb-b7c1-9ef9c4759ea6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="0302f2d5-c84d-4fa2-b85b-1d89d282f741"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7acccdfa-c8e6-4eee-9fe6-de6cca41330e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="9d3186a2-1fa7-483a-b6c7-42c9cb7be764"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="604f7ddc-715d-41a8-939a-e9fbe4c3e80c"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="418fef4b-3e36-45b7-a817-8ea7b7692435"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="031d17fc-439f-4603-b515-9d138b7a0db6"/>
+  <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="04f00932-5b93-4c0c-8d2f-d5224e42c7b1">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.БухгалтерскийУчет</subsystems>
+  <subsystems>Subsystem.Зарплата</subsystems>
+  <commonPictures>CommonPicture.КартинкаЗакупки</commonPictures>
+  <commonPictures>CommonPicture.КартинкаПродажи</commonPictures>
+  <commonPictures>CommonPicture.КартинкаБухУчет</commonPictures>
+  <commonPictures>CommonPicture.КартинкаЗарплата</commonPictures>
+  <constants>Constant.НаименованиеОрганизации</constants>
+  <constants>Constant.НаименованиеСклада</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Контрагент</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.БухгалтерскаяОперация</documents>
+  <documents>Document.ЗакрытиеМесяца</documents>
+  <documents>Document.ЗаполнениеГрафикаПредприятия</documents>
+  <documents>Document.НачислениеОклада</documents>
+  <documents>Document.НевыходСотрудника</documents>
+  <documents>Document.НачилениеПремий</documents>
+  <documents>Document.ВыплатаЗаработнойПлаты</documents>
+  <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
+  <enums>Enum.Вакании</enums>
+  <reports>Report.ЗакупкиТоваров</reports>
+  <reports>Report.ОстаткиТоваровПоДаннымДокумента</reports>
+  <reports>Report.ВаловаяПрибыль</reports>
+  <reports>Report.ОстаткиПоСчетамБУ</reports>
+  <reports>Report.ЗадолженностьПередСотрудниками</reports>
+  <reports>Report.КлассификацияНоменклатуры</reports>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ГрафикПредприятия</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗадолженностьПередСотрудниками</accumulationRegisters>
+  <chartsOfAccounts>ChartOfAccounts.БухУчет</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.РегистрБухУчет</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.РегистрНачисленияЗарплаты</calculationRegisters>
+  <businessProcesses>BusinessProcess.ТестированиеКандидата</businessProcesses>
+  <tasks>Task.ЗадачаТестированияКандидата</tasks>
+</mdclass:Configuration>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f84cf93a-c63a-4228-95d7-080345ac9f01">
+  <producedTypes>
+    <objectType typeId="6b40d1b7-9b47-4ad0-8687-1b0cc1ac8de7" valueTypeId="2edacdb9-3f0d-4a42-ae7b-9669fafbd0d0"/>
+    <refType typeId="4d99e235-2881-400d-8264-92e2c0c9496f" valueTypeId="9f60b5f6-c37d-4ab4-82ee-bb7672efd922"/>
+    <selectionType typeId="a837b068-b492-4e4c-9d86-4aae3223ec47" valueTypeId="c29f245e-359a-4ddc-a44f-9edc80907c1f"/>
+    <listType typeId="b088895f-b4c1-48a2-b71f-c4f1d6b1aba2" valueTypeId="fd9c9082-4e2a-4f75-bff3-177526bf8e57"/>
+    <managerType typeId="f2ff8ec7-16c0-46ba-bc88-76f6d6e2f11d" valueTypeId="756dc335-7e53-4f29-bb3f-b07edfe90d6b"/>
+  </producedTypes>
+  <name>ЗадачаТестированияКандидата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача тестирования кандидата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.ЗадачаТестированияКандидата.StandardAttribute.Description</inputByString>
+  <inputByString>Task.ЗадачаТестированияКандидата.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>25</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+</mdclass:Task>

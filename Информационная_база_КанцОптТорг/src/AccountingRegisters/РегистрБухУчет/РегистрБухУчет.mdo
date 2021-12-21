@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3ce1ae4-f2a5-4963-99b3-eb9a6f4a8c5c">
+  <producedTypes>
+    <selectionType typeId="9c4fabc8-96d1-48de-abf5-d264e6e5de61" valueTypeId="988295ac-9060-4265-9b99-edfc131f7884"/>
+    <listType typeId="bacaeafa-1370-4583-b63c-03d3c708f94a" valueTypeId="c6e4749b-7b67-4ee0-99a5-dfdd60c2945d"/>
+    <managerType typeId="87d150a5-89a2-432d-9e7a-067133abc226" valueTypeId="18fa81a9-0840-4b31-bec5-3e527be3422e"/>
+    <recordSetType typeId="694e0bb4-fe75-446f-bae2-0d207f192bad" valueTypeId="8f23a119-7443-431f-882e-f789c5de3482"/>
+    <recordKeyType typeId="46cd098e-b130-4ae1-ac4a-7c7e8d2e5724" valueTypeId="8e57748e-3b10-48ad-ba17-8d5283c3b9fc"/>
+    <recordType typeId="9d759f45-48c5-42ad-a2f2-7a0da0bcc050" valueTypeId="cbee99fc-407c-4cb7-bd10-56ee6179bde8"/>
+    <extDimensionsType typeId="30d764de-8acb-484f-bac0-a1fb9f7fdf58" valueTypeId="21df1a99-1c05-4655-9c0c-b5f523c151b5"/>
+  </producedTypes>
+  <name>РегистрБухУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр бух учет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.БухУчет</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="23130812-1b24-4582-8e34-fdcd8b9aae29">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>
